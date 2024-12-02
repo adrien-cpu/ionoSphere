@@ -1,0 +1,60 @@
+services:
+  analysis_service:
+    build:
+      context: .
+      dockerfile: ./microservices/analysis_service/Dockerfile
+    ports:
+      - "8010:8000"
+    volumes:
+      - ./optimization_scripts:/app/optimization_scripts
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  creation_service:
+    build:
+      context: .
+      dockerfile: ./microservices/creation_service/Dockerfile
+    ports:
+      - "8020:8000"
+    volumes:
+      - ./optimization_scripts:/app/optimization_scripts
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  routing_node:
+    build:
+      context: .
+      dockerfile: ./nodes/routing_node/Dockerfile
+    ports:
+      - "8030:8000"
+    volumes:
+      - ./optimization_scripts:/app/optimization_scripts
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  planning_service:
+    build:
+      context: .
+      dockerfile: ./microservices/planning_service/Dockerfile
+    ports:
+      - "8040:8000"
+    volumes:
+      - ./optimization_scripts:/app/optimization_scripts
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  resource_suggestion_service:
+    build:
+      context: .
+      dockerfile: ./microservices/resource_suggestion_service/Dockerfile
+    ports:
+      - "8050:8000"
+    volumes:
+      - ./optimization_scripts:/app/optimization_scripts
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  strategy_service:
+    build:
+      context: .
+      dockerfile: ./microservices/strategy_service/Dockerfile
+    ports:
+      - "8060:8000"
+    volumes:
+      - ./optimization_scripts:/app/optimization_scripts
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

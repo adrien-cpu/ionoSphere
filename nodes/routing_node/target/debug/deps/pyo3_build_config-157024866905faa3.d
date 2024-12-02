@@ -1,0 +1,14 @@
+/mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/deps/libpyo3_build_config-157024866905faa3.rmeta: /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/lib.rs /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/errors.rs /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/impl_.rs /mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out/pyo3-build-config-file.txt /mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out/pyo3-build-config.txt
+
+/mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/deps/libpyo3_build_config-157024866905faa3.rlib: /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/lib.rs /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/errors.rs /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/impl_.rs /mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out/pyo3-build-config-file.txt /mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out/pyo3-build-config.txt
+
+/mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/deps/pyo3_build_config-157024866905faa3.d: /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/lib.rs /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/errors.rs /home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/impl_.rs /mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out/pyo3-build-config-file.txt /mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out/pyo3-build-config.txt
+
+/home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/lib.rs:
+/home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/errors.rs:
+/home/adrien/.cargo/registry/src/index.crates.io-6f17d22bba15001f/pyo3-build-config-0.23.2/src/impl_.rs:
+/mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out/pyo3-build-config-file.txt:
+/mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out/pyo3-build-config.txt:
+
+# env-dep:CARGO_PKG_VERSION=0.23.2
+# env-dep:OUT_DIR=/mnt/volume_externe/my_project/ionosphere/nodes/routing_node/target/debug/build/pyo3-build-config-1835331331d1f01e/out

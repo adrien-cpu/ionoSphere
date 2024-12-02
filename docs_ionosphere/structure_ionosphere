@@ -1,0 +1,197 @@
+Analogie du Musée pour la Structure du Prompt et des IA
+Chez toi (Central Park) - Déclenchement du Besoin
+Description : Compréhension approfondie du problème ou du besoin initial.
+
+IA Utilisée : IA de Questionnement Guidé (BERT)
+
+Rôle du Musée : Le Central Park du musée où l'utilisateur exprime ses idées initiales.
+
+Statut : Prêt à être implémenté
+
+Dossier : N/A (Cela sera intégré directement dans l'application principale)
+
+Étape 1 : Analyse et Décortiquage du Prompt (Atelier d'Analyse)
+Objectif : Identification des exigences techniques et scientifiques.
+
+IA Utilisée : IA de Questionnement Guidé (BERT) et d'Analyse de Texte (RoBERTa)
+
+Rôle du Musée : Un atelier où des experts (IA) posent des questions pour aider l'utilisateur à structurer son idée.
+
+Statut : Service d'Analyse Configuré, Dockerfile prêt, vérification de la configuration nécessaire
+
+Dossier : /microservices/analysis_service
+
+Étape 2 : Suggestions et Planification Initiale (IA Orchestratrice)
+Objectif : Mise en place de la roadmap et définition des étapes clés du projet.
+
+IA Utilisée : IA de Suggestion Contextuelle (DistilBERT) et de Planification Stratégique (GPT-2)
+
+Rôle du Musée : Une salle où l'utilisateur reçoit des suggestions et planifie les étapes du projet.
+
+Statut : Service de Planification Configuré, Dockerfile prêt et inclusion dans docker-compose.yml effectuée
+
+Dossier : /microservices/planning_service
+
+Étape 3 : Choix du Musée (Mini Central Park)
+Objectif : Sélection des outils et des données à utiliser.
+
+IA Utilisée : IA de Suggestion de Ressources (BERT et DistilBERT)
+
+Rôle du Musée : Exploration dans un mini Central Park où différentes IA proposent des ressources et outils.
+
+Statut : Service de Suggestion de Ressources Configuré, Dockerfile prêt et inclusion dans docker-compose.yml effectuée
+
+Dossier : /microservices/resource_suggestion_service
+
+Étape 4 : Planification du Trajet (Métro)
+Objectif : Définir les méthodologies et les technologies à adopter.
+
+IA Utilisée : IA de Stratégie et de Méthodologie (XLNet et Electra)
+
+Rôle du Musée : Une section similaire à une station de métro où l'utilisateur planifie le trajet pour la mise en œuvre.
+
+Statut : À implémenter
+
+Dossier : À créer (probablement /microservices/strategy_service)
+
+Étape 5 : Exploration du Mini Central Park (Districts)
+Objectif : Mise en œuvre des premières versions des solutions et tests initiaux.
+
+IA Utilisée : IA Exploratrice (BERT et ALBERT)
+
+Rôle du Musée : Exploration dans des mini-sections du musée pour tester les premières versions des solutions.
+
+Statut : À implémenter
+
+Dossier : À créer (probablement /microservices/exploration_service)
+
+Étape 6 : Interaction et Assistance
+Choix d'un Guide (IA)
+
+Personnalités Thématiques : Jules Verne, Léonard de Vinci, etc.
+
+IA Utilisée : IA de Personnalités Thématiques (DistilBERT et GPT-2)
+
+Rôle : Fournir une assistance personnalisée et des conseils en temps réel.
+
+Statut : À implémenter
+
+Dossier : À créer (probablement /microservices/assistance_service)
+
+Interaction avec les Contenus (Plugins)
+
+IA Utilisée : IA de Services Complémentaires (BERT)
+
+Rôle : Traductions, explications techniques, suggestions de ressources complémentaires.
+
+Statut : À implémenter
+
+Dossier : À créer (probablement /microservices/plugin_service)
+
+Étape 7 : Consultation et Évaluation
+Consultation des Ressources Disponibles (IA Spectatrices)
+
+IA Utilisée : IA Spectatrices (BERT et RoBERTa)
+
+Rôle : Panel diversifié pour évaluer les ressources et résultats obtenus.
+
+Statut : À implémenter
+
+Dossier : À créer (probablement /microservices/consultation_service)
+
+Étape 8 : Sortie avec des Connaissances Acquises
+Synthèse des apprentissages : Résumé des connaissances acquises et des compétences développées.
+
+IA Utilisée : IA de Synthèse (BERT et T5)
+
+Rôle : Résumer les connaissances et compétences acquises.
+
+Statut : À implémenter
+
+Dossier : À créer (probablement /microservices/synthesis_service)
+
+Étape 9 : Évaluation de l'Expérience (IA Juges)
+Feedback structuré : Recueil des avis des différents intervenants pour améliorer le processus.
+
+IA Utilisée : IA Juges (BERT et DistilBERT)
+
+Rôle : Recueillir et structurer le feedback des intervenants.
+
+Statut : À implémenter
+
+Dossier : À créer (probablement /microservices/feedback_service)
+
+Étape 10 : Phase de Feedback Automatique Avant Déploiement
+Amélioration continue : Utilisation des retours pour ajuster les méthodes et optimiser les résultats.
+
+IA Utilisée : IA d'Amélioration Continue (BERT et RoBERTa)
+
+Rôle : Utiliser les retours pour ajuster et optimiser les méthodes avant le déploiement.
+
+Statut : À implémenter
+
+Dossier : À créer (probablement /microservices/continuous_improvement_service)
+
+
+étape pour rendre l'utilisation de la rétro-ingénierie encore plus claire et précise :
+
+1. Comprendre et Entraîner les IA de Génération de Code
+Objectif : Améliorer la performance des IA en comprenant leurs critères et processus de génération de code.
+
+Actions :
+
+Analyser les codes générés par les IA.
+
+Identifier les patterns et critères qu'elles utilisent.
+
+Entraîner les IA sur des ensembles de données augmentés avec ces informations.
+
+2. Accompagner l'Utilisateur à Formuler ses Prompts
+Objectif : Aider les utilisateurs à écrire des prompts clairs et efficaces.
+
+Actions :
+
+Utiliser une IA d'assistance pour suggérer des modifications et améliorer les prompts.
+
+Former l'IA d'assistance à reconnaître les éléments clés d'un bon prompt en fonction des critères identifiés à l'étape 1.
+
+3. Analyse et Reformulation des Prompts
+Objectif : Assurer que les prompts sont optimisés pour les IA de génération de code.
+
+Actions :
+
+Faire passer les prompts par une IA d'analyse (ex : RoBERTa) pour vérifier leur clarté et pertinence.
+
+Réformuler les prompts si nécessaire avant de les transmettre aux IA de génération de code.
+
+4. Validation et Boucle de Retour
+Objectif : Garantir que le code généré est de haute qualité avec peu ou pas de modifications nécessaires.
+
+Actions :
+
+Générer le code et les fichiers d'installation.
+
+Passer le code généré par une IA de revue pour évaluer la qualité.
+
+Si le code nécessite des retours, renvoyer les informations aux IA de génération de code pour itérer jusqu'à obtention de la perfection.
+
+Exemple de Workflow
+Initial Prompt :
+
+L'utilisateur formule un prompt.
+
+L'IA d'assistance aide à clarifier et optimiser le prompt.
+
+Validation du Prompt :
+
+Le prompt passe par une IA d'analyse qui le reformule si nécessaire.
+
+Génération de Code :
+
+Le prompt finalisé est envoyé aux IA de génération (CodeGen et StarCoder).
+
+Revue et Ajustements :
+
+Le code généré est revu par une IA spécialisée.
+
+Si des modifications sont nécessaires, elles sont renvoyées dans la boucle jusqu'à validation.
