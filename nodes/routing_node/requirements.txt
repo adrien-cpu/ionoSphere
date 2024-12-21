@@ -1,7 +1,0 @@
-fastapi
-numpy
-pandas
-pydantic
-uvicorn
-requests
-tokenizers
